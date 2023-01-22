@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Basketball Scoreboard
+        </title>
+        <link rel="stylesheet" href="score.css">
+    </head>
+    <body>
+        <h1>Basketball Scoreboard</h1><br>
+        <div class="container">
+            <div>
+                Home
+                <br>
+                <div class="box">
+                    <span id="home-el"></span>
+                </div>
+                
+                <button  onclick="plusOneHome()">+1</button>
+                <button onclick="plusTwoHome()">+2</button>
+                <button onclick="plusThreeHome()">+3</button>
+            </div>
+            <div>
+                Guest
+                <div class="box">
+                 <span id="guest-el"></span>
+                </div>
+               
+                <button  onclick="plusOneGuest()">+1</button>
+                <button   onclick="plusTwoGuest()">+2</button>
+                <button  onclick="plusThreeGuest()">+3</button>
+            </div>
+        </div>
+        <script src="score.js">
+
+        </script>
+    </body>
+</html>
